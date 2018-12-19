@@ -11,34 +11,9 @@ As per income tax exemption bill passed by Government of Pakistan, following sla
 6. Where the taxable salary income exceeds Rs. 4,000,000 but does not exceed Rs. 8,000,000 the rate of income tax is Rs. 290,000 + 20% of the amount exceeding Rs. 4,000,000.
 7. Where the taxable salary income exceeds Rs. 8,000,000 the rate of income tax is Rs. 1,090,000 + 25% of the amount exceeding Rs. 8,000,000.
 
-<table>
-  <tr>
-    <th>Slab</th>
-    <th>min pay</th>
-    <th>max pay</th>
-    <th>tax</th>
-    <th></th>
-  </tr>
-  
-  <tr>
-    <td>1</td>
-    <td>0</td>
-    <td>399,999</td>
-    <td>0%</td>
-  </tr>
-  
-  <tr>
-    <td>2</td>
-    <td>400,000</td>
-    <td>799,999</td>
-    <td>1,000</td>
-  </tr>
-  
-  <tr>
-    <td>3</td>
-    <td>800,000</td>
-    <td>1,199,999</td>
-    <td>2,000</td>
-  </tr>
-  
-</table>
+
+Slab | Min. Pay | Max. Pay | Tax |
+----:| --------:| --------:| ---:|
+1 | 0 | 399,999 | 0% |
+2 | 400,000 | 799,999 | 1,000 |
+3 | 800,000 | 1,199,999 | 2,000 |
