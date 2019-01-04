@@ -21,4 +21,3 @@ Slab # | Min. Salary | Max. Salary | Tax Payable |
 5 | 2,500,000 | 3,999,999 | 65,000 + 15% excess |
 6 | 4,000,000 | 7,999,999 | 290,000 + 20% excess |
 7 | 8,000,000 | no limit | 1,090,000 + 25% excess|
-8 | x | x | x |
