@@ -12,35 +12,40 @@
 
   <p>Tax Calculator Pakistan 2018-2019 (Mini-Budget)</p>
 
+<form>
   <div class="calc">
     <div class="salaryInput">
-      <input type="text" name="" value="" placeholder="Enter your Monthly Salary here">
-      <button type="button" name="button">Calculate</button>
+      <input type="text" name="" value="" placeholder="Enter Monthly Salary" id="monthlySalaryInput">
+      <button type="button" name="button" onclick="annualTax()">Calculate</button>
       <button type="reset" value="">Reset</button>
-      <input type="button" value="Reset Form" onClick="this.form.reset()" />
     </div>
     <br>
     <div class="div_monthlySalary">Monthly Salary:</div>
-    <div class=""></div>
+    <div class="" id="monthlySalary"></div>
     <br>
     <div class="div_yearlySalary">Yearly Salary:</div>
-    <div class=""></div>
+    <div class="" id="yearlySalary"></div>
     <br>
-    <div class="div_yearlyTax">Yearly Tax:</div>
-    <div class=""></div>
+    <div class="div_yearlyTax">Yearly Tax Rate:</div>
+    <div class="" id="yearlyTax"></div>
     <br>
-    <div class="div_monthlyTax">Monthly Tax:</div>
-    <div class=""></div>
+    <div class="div_yearlyTaxFixedAmount">Yearly Tax Fixed Amount:</div>
+    <div class="" id="yearlyTaxFixedAmount"></div>
+    <br>
+    <div class="div_monthlyTax">Monthly Tax Rate:</div>
+    <div class="" id="monthlyTax"></div>
     <br>
     <div class="div_yearlySalaryAfterTax">Yearly Salary After Tax:</div>
-    <div class=""></div>
+    <div class="" id="yearlySalaryAfterTax"></div>
     <br>
     <div class="div_monthlySalaryAfterTax">Monthly Salary After Tax:</div>
-    <div class=""></div>
+    <div class="" id="monthlySalaryAfterTax"></div>
   </div>
+</form>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="./taxCalculatorObject.js"></script>
 </body>
 
 </html>
